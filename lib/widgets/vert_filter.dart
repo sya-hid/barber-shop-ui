@@ -4,7 +4,6 @@ import 'package:barber_app_ui/bloc_providers/price_provider.dart';
 import 'package:barber_app_ui/bloc_providers/rate_provider.dart';
 import 'package:barber_app_ui/bloc_providers/service_provider.dart';
 import 'package:barber_app_ui/const.dart';
-import 'package:barber_app_ui/models/genders.dart';
 import 'package:barber_app_ui/size_config.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
@@ -142,7 +141,7 @@ class VertFilter extends StatelessWidget {
                 ),
                 children: [
                   ...List.generate(
-                      gender.length,
+                      state.length,
                       (index) => Row(
                             mainAxisAlignment: MainAxisAlignment.spaceBetween,
                             children: [

@@ -152,7 +152,7 @@ class _MainPageState extends State<MainPage> {
                         )
                       ],
                     ),
-                    const SizedBox(width: 10),
+                    const SizedBox(width: 30),
                     Column(
                       mainAxisAlignment: MainAxisAlignment.center,
                       children: [

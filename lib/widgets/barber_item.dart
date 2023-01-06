@@ -53,7 +53,7 @@ class BarberItem extends StatelessWidget {
                     maxLines: 1,
                     overflow: TextOverflow.ellipsis,
                     style: font.copyWith(
-                        fontSize: 13, fontWeight: FontWeight.bold),
+                        fontSize: 12, fontWeight: FontWeight.bold),
                   ),
                   const SizedBox(width: 2),
                   Row(
@@ -64,13 +64,14 @@ class BarberItem extends StatelessWidget {
                         style: font.copyWith(fontSize: 10, color: orange),
                       ),
                       Text(
-                        "${barber.clients} clients",
+                        "(${barber.clients} clients)",
                         style: font.copyWith(fontSize: 10, color: orange),
                       ),
                     ],
                   )
                 ],
               ),
+              const SizedBox(height: 5),
               Text(
                 barber.location,
                 style: font.copyWith(
