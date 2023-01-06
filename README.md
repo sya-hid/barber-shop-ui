@@ -1,16 +1,21 @@
-# barber_app_ui
+# Barber App UI
 
-A new Flutter project.
+## Support
 
-## Getting Started
+https://www.buymeacoffee.com/syarifhidayat
+https://sociabuzz.com/syarifhidayatullah2020/tribe
 
-This project is a starting point for a Flutter application.
+## UI/UX
 
-A few resources to get you started if this is your first Flutter project:
+https://dribbble.com/shots/11133863-Online-Barber-Marketplace-for-Booking-Appointments
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+## Youtube
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+bit.ly/3h90pC0
+
+## Preview
+
+<p align="middle">
+<img src="assets/previews/preview_1.png" alt="Preview 1" width="800">
+<img src="assets/previews/preview_2.png" alt="Preview 2" width="800">
+</p>
