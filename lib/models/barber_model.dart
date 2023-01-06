@@ -1,0 +1,186 @@
+import 'package:barber_app_ui/models/services.dart';
+
+class Barber {
+  final String name, avatar, location, gender;
+  final double price;
+  final int rate, clients, id;
+  final List<String> services;
+  final DateTime dateAdded;
+
+  const Barber({
+    required this.name,
+    required this.gender,
+    required this.avatar,
+    required this.location,
+    required this.id,
+    required this.price,
+    required this.rate,
+    required this.clients,
+    required this.services,
+    required this.dateAdded,
+  });
+}
+
+List<Barber> barbers = [
+  Barber(
+    id: 1,
+    name: "Corene Vanyukhin",
+    location: "110 Stephen Place",
+    avatar: "https://robohash.org/molestiasetnihil.png?size=50x50&set=set1",
+    clients: 101,
+    rate: 3,
+    price: 199,
+    gender: "Female",
+    services: [
+      services[0][0],
+      services[2][0],
+      services[3][0],
+    ],
+    dateAdded: DateTime.parse('2021-12-11'),
+  ),
+  Barber(
+    id: 2,
+    name: "Gussi Miranda",
+    location: "700 Merrick Park",
+    avatar:
+        "https://robohash.org/voluptasofficianostrum.png?size=50x50&set=set1",
+    clients: 166,
+    rate: 3,
+    price: 481,
+    gender: "Female",
+    services: [
+      services[0][0],
+      services[6][0],
+      services[1][0],
+    ],
+    dateAdded: DateTime.parse('2021-12-19'),
+  ),
+  Barber(
+    id: 3,
+    name: "Heather Volonte",
+    location: "522 Corry Park",
+    avatar: "https://robohash.org/nihilestpossimus.png?size=50x50&set=set1",
+    clients: 57,
+    rate: 2,
+    price: 447,
+    gender: "Male",
+    services: [
+      services[1][0],
+      services[2][0],
+      services[4][0],
+    ],
+    dateAdded: DateTime.parse('2021-05-11'),
+  ),
+  Barber(
+    id: 4,
+    name: "Morgane Corry",
+    location: "2089 Ludington Center",
+    avatar: "https://robohash.org/undeinesse.png?size=50x50&set=set1",
+    clients: 62,
+    rate: 5,
+    price: 286,
+    gender: "Female",
+    services: [
+      services[3][0],
+      services[4][0],
+      services[5][0],
+    ],
+    dateAdded: DateTime.parse('2021-12-13'),
+  ),
+  Barber(
+    id: 5,
+    name: "Augustine Braddon",
+    location: "2966 Homewood Crossing",
+    avatar: "https://robohash.org/eligendilaborumeos.png?size=50x50&set=set1",
+    clients: 175,
+    rate: 1,
+    price: 118,
+    gender: "Female",
+    services: [
+      services[4][0],
+      services[6][0],
+      services[5][0],
+    ],
+    dateAdded: DateTime.parse('2022-12-10'),
+  ),
+  Barber(
+    id: 6,
+    name: "Ethelind Stoll",
+    location: "848 Westerfield Pass",
+    avatar: "https://robohash.org/animierrorad.png?size=50x50&set=set1",
+    clients: 153,
+    rate: 1,
+    price: 350,
+    gender: "Male",
+    services: [
+      services[2][0],
+      services[4][0],
+      services[1][0],
+    ],
+    dateAdded: DateTime.parse('2022-12-11'),
+  ),
+  Barber(
+    id: 7,
+    name: "Jacques Pimerick",
+    location: "96 Esch Alley",
+    avatar: "https://robohash.org/molestiaeinsapiente.png?size=50x50&set=set1",
+    clients: 71,
+    rate: 5,
+    price: 110,
+    gender: "Male",
+    services: [
+      services[2][0],
+      services[4][0],
+      services[5][0],
+    ],
+    dateAdded: DateTime.parse('2021-09-11'),
+  ),
+  Barber(
+    id: 8,
+    name: "Kaylee Simner",
+    location: "28 Homewood Road",
+    avatar: "https://robohash.org/cupiditateatvoluptas.png?size=50x50&set=set1",
+    clients: 107,
+    rate: 5,
+    price: 137,
+    gender: "Female",
+    services: [
+      services[0][0],
+      services[4][0],
+      services[3][0],
+    ],
+    dateAdded: DateTime.parse('2021-08-11'),
+  ),
+  Barber(
+    id: 9,
+    name: "Gussy Stoving",
+    location: "6810 Columbus Center",
+    avatar: "https://robohash.org/harumdistinctioet.png?size=50x50&set=set1",
+    clients: 93,
+    rate: 5,
+    price: 257,
+    gender: "Female",
+    services: [
+      services[0][0],
+      services[6][0],
+      services[5][0],
+    ],
+    dateAdded: DateTime.parse('2022-10-11'),
+  ),
+  Barber(
+    id: 10,
+    name: "Ettie Domeney",
+    location: "22045 Stuart Pass",
+    avatar: "https://robohash.org/voluptatesetaut.png?size=50x50&set=set1",
+    clients: 100,
+    rate: 1,
+    price: 320,
+    gender: "Male",
+    services: [
+      services[0][0],
+      services[2][0],
+      services[3][0],
+    ],
+    dateAdded: DateTime.parse('2022-12-11'),
+  ),
+];
