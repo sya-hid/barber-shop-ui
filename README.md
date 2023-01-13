@@ -2,16 +2,23 @@
 
 ## Support
 
-https://www.buymeacoffee.com/syarifhidayat
-https://sociabuzz.com/syarifhidayatullah2020/tribe
+<p>
+<a href="https://sociabuzz.com/syarifhidayatullah2020/tribe">
+<img src="https://sociabuzz.s3.ap-southeast-1.amazonaws.com//landing-page/img/sociabuzz-logo.png" width="100"></a>
+
+<a href="https://www.buymeacoffee.com/syarifhidayat">
+<img src="https://media.tenor.com/Is0ELiJnoU0AAAAi/buymeacoffee-button.gif" width="100"></a>
+</p>
 
 ## UI/UX
 
-https://dribbble.com/shots/11133863-Online-Barber-Marketplace-for-Booking-Appointments
+<a href="https://dribbble.com/shots/11133863-Online-Barber-Marketplace-for-Booking-Appointments">
+<img src="https://upload.wikimedia.org/wikipedia/commons/3/32/Dribbble_logo.png" width="100"></a>
 
 ## Youtube
 
-bit.ly/3h90pC0
+<a href="https://youtu.be/mSXgqkFipMk">
+<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b8/YouTube_Logo_2017.svg/200px-YouTube_Logo_2017.svg.png" width="100"></a>
 
 ## Preview
 
