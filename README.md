@@ -25,3 +25,4 @@
 <img src="assets/previews/preview_1.png" alt="Preview 1" width="800">
 <img src="assets/previews/preview_2.png" alt="Preview 2" width="800">
 </p>
+<img src="https://visitor-badge.laobi.icu/badge?page_id=sya-hid.barber-shop-ui"/>  
